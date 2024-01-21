@@ -15,6 +15,10 @@
     padding: 0 3rem;
   }
 
+  @include respond(tab-land) {
+    padding: 0 3rem;
+  }
+
   @include clearfix;
 
   //   if it is ^, this allow us to select only the ones that start with col-
